@@ -10,11 +10,11 @@ KIMI_API_KEY = "sk-ep...t65AB"
 
 @app.route("/", methods=["GET", "POST"])
 def webhook():
-    # 处理 GET 请求（浏览器访问测试）
+    # GET 请求测试
     if request.method == "GET":
         return "飞书机器人服务运行中 ✅"
     
-    # 处理 POST 请求（飞书回调）
+    # POST 请求处理飞书回调
     data = request.get_json() or {}
     
     # 处理飞书验证
