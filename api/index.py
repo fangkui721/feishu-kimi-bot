@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 FEISHU_APP_ID = "cli_a91d343348389bce"
 FEISHU_APP_SECRET = "40CXcUfCrg7Fns8Yi9yXsbg1mvs1tl4h"
-KIMI_API_KEY = "sk-ep...t65AB"
+KIMI_API_KEY = "sk-PY6LLpfUl1srTqDLrQQl6YiWfnl92n7bORgQOlVhJq0cEbWB"
 
 @app.route("/", methods=["GET", "POST"])
 def webhook():
